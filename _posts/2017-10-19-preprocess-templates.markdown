@@ -18,9 +18,9 @@ function THEME_preprocess_node(&$vars) {
 
   // Bundle-specific preprocess functions, like
   // THEME_preprocess_node__page() or THEME_preprocess_node__story().
-  $function = __FUNCTION__ . '__' . $vars['node']->type;
+  $function = __FUNCTION__ . '__' . $node->type;
   if (function_exists($function)) {
-    $function($vars, $hook);
+    $function($vars);
   }
 }
 ```
