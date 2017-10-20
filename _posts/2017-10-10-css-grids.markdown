@@ -18,7 +18,7 @@ Links and snippets relating to layouts using css grids.
 * [Ignore Microsoft Edge](https://www.smashingmagazine.com/2017/06/building-production-ready-css-grid-layout/#side-note-a-word-on-browser-support)
 
 Basic example:
-{% highlight css %}
+```css
 .grid > div {
   float: left;
   width: 33.333%;
@@ -29,9 +29,9 @@ Basic example:
     width: auto;
   }
 }
-{% endhighlight %}
+```
 
 Ignore MS Edge:
-{% highlight css %}
+```css
 @supports (grid-area: auto) {}
-{% endhighlight %}
+```
