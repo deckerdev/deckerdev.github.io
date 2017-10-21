@@ -1,5 +1,5 @@
 ---
-title: Preprocessing Drupal Templates
+title: Preprocessing Node Drupal Templates
 date: '2017-10-19 16:15:00 -0700'
 tags: drupal
 ---
