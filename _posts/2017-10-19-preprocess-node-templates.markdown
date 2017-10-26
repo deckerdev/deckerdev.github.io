@@ -6,7 +6,7 @@ tags: drupal
 
 Snippets relating to Drupal preprocess functions.
 
-## Preprocess nodes:
+## Preprocess nodes
 
 Drupal 7:
 ```php
