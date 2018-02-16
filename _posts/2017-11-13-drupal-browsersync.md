@@ -4,7 +4,9 @@ date: '2017-11-13 12:42:21 -0700'
 tags: drupal
 ---
 
-Getting BrowserSync to properly reload in Drupal 8
+Getting BrowserSync to properly reload in Drupal 8.
+
+
 
 ## In THEME_NAME.theme
 

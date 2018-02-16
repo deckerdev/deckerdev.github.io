@@ -16,6 +16,7 @@ A collection of resources for Drupal 8 and Twig.
 * [Drupal specific filters](https://www.drupal.org/docs/8/theming/twig/filters-modifying-variables-in-twig-templates)
 * [Drupal specific functions](https://www.drupal.org/docs/8/theming/twig/functions-in-twig-templates)
 * [Twig overview](https://sqndr.github.io/d8-theming-guide/twig/twig-basics.html) from _The Drupal 8 Theming guide_
+* [D8 Twig Snippets](https://github.com/jenter/twig-snippets)
 
 ## Drupal Modules that extend Twig
 
@@ -28,7 +29,7 @@ A collection of resources for Drupal 8 and Twig.
 
 ## Snippets
 
-Get the value from a `List (text)` field:
+Get the value from a _List (text)_ field:
 {% raw %}
 ```twig
 {{ content.field_text_list['#items'].getString() }}
@@ -46,10 +47,28 @@ Traverse a multi-valued field:
 ```
 {% endraw %}
 
-Get the value from a `text` field:
+Get the value from a _text_ field:
 {% raw %}
 ```twig
 {{ node.field_text.value }}
 {{ node.field_text.value|striptags }}
+```
+{% endraw %}
+
+Create a link to an _entity reference_:
+{% raw %}
+```twig
+{% set ref = node.field_entity_reference.entity %}
+- or -
+{% set ref = node.field_entity_reference.0.entity %}
+
+<a href="{{ path('entity.node.canonical', {'node': ref.id}) }}">{{ ref.label }}</a>
+```
+{% endraw %}
+
+Counting the items in multivalue fields:
+{% raw %}
+```twig
+{% set count = node.field_entity_reference.getvalue|length %}
 ```
 {% endraw %}
