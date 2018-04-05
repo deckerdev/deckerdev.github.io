@@ -1,7 +1,8 @@
 ---
 title: CSS Grids
-date: '2017-10-10 14:46:18 -0700'
-tags: css
+date: 2017-10-10 21:46:18 Z
+tags:
+- css
 ---
 
 Links and snippets relating to layouts using css grids.

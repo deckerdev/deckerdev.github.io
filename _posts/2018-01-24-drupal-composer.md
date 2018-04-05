@@ -1,7 +1,9 @@
 ---
 title: Composer and Drupal 8
-date: '2018-01-24 09:36:18 -0700'
-tags: drupal, composer
+date: 2018-01-24 16:36:18 Z
+tags:
+- drupal,
+- composer
 ---
 
 Composer + Drupal 8 = Awesome
