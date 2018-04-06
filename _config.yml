@@ -1,14 +1,11 @@
----
 title: deckerdev.com
 description: ''
 baseurl: ''
-url: http://deckerdev.com
+url: 'http://deckerdev.com'
 timezone: America/Phoenix
 twitter_username: decker_dev
 github_username: robdecker
 google_analytics: UA-738267-3
-
-# Build settings
 markdown: kramdown
 kramdown:
   input: GFM
@@ -16,4 +13,5 @@ kramdown:
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
-github: [metadata]
+github:
+  - metadata
