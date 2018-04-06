@@ -1,8 +1,7 @@
 ---
 title: Accessing Drupal 8 field values
-date: 2017-11-13 19:36:33 Z
-tags:
-- drupal
+date: '2017-11-13 12:36:33 -0700'
+tags: drupal
 ---
 
 Getting field values can be a pain sometimes.

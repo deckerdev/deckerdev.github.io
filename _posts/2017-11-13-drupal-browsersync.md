@@ -1,8 +1,7 @@
 ---
 title: Drupal 8 and BrowserSync
-date: 2017-11-13 19:42:21 Z
-tags:
-- drupal
+date: '2017-11-13 12:42:21 -0700'
+tags: drupal
 ---
 
 Getting BrowserSync to properly reload in Drupal 8.

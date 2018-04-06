@@ -1,8 +1,7 @@
 ---
 title: Drupal and Twig
-date: 2017-10-25 23:00:00 Z
-tags:
-- drupal
+date: '2017-10-25 16:00:00 -0700'
+tags: drupal
 ---
 
 A collection of resources for Drupal 8 and Twig.

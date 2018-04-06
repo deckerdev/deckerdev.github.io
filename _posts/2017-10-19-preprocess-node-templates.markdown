@@ -1,8 +1,7 @@
 ---
 title: Preprocessing Node Drupal Templates
-date: 2017-10-19 23:15:00 Z
-tags:
-- drupal
+date: '2017-10-19 16:15:00 -0700'
+tags: drupal
 ---
 
 Snippets relating to Drupal preprocess functions.

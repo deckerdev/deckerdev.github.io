@@ -1,8 +1,7 @@
 ---
 title: Boot out of space
-date: 2018-02-16 21:11:44 Z
-tags:
-- linux
+date: '2018-02-16 14:11:44 -0700'
+tags: linux
 ---
 
 /boot is out of space. uh oh.

@@ -1,9 +1,7 @@
 ---
 title: Javascript Behavior Templates for Drupal
-date: 2017-10-19 23:15:00 Z
-tags:
-- drupal,
-- javascript
+date: '2017-10-19 16:15:00 -0700'
+tags: drupal, javascript
 ---
 
 Templates for quickly starting javascript behaviors (for Drupal)
